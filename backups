@@ -1,0 +1,47 @@
+---
+
+copyright:
+  years: 2022
+lastupdated: "2022-10-03"
+
+subcollection: tas-ms
+
+keywords: tririga-ms
+
+---
+
+{{site.data.keyword.attribute-definition-list}}
+
+# Backups
+{: #backups}
+
+This page gives details about the backup strategy employed by the Managed Services team for TRIRIGA Application Suite.
+ 
+## Application Backups
+{: #application-backups}
+ 
+Data used by applications within the TRIRIGA Application Suite portfolio is backed up according to the following:
+ 
+* All backups are encrypted
+
+* Communication between applications, backup scripts the storage layer and DB services are performed via secure transport and accessed only via private endpoints that are offered by the service
+
+* Production backups are performed once a day
+
+* Backups are stored in a separate IBM Cloud data center location
+
+## System Configuration Backups
+{: #sysconf-backups}
+ 
+TRIRIGA Application Suite leverages different components to deliver the applications to clients.  Each of these services is backed up using the appropriate backup tool for that component.  In general, all components backups:
+ 
+* Are encrypted
+
+* Are taken daily
+
+* Are stored in a separate data center
+
+## Restore
+{: #restore}
+ 
+Restore requests must be submitted via case (ticket) through the [IBM Support Community portal](https://www.ibm.com/mysupport).  The expected turn around time will depend on the severity and the size of the restore required.  Generally for non-production systems, expect 1 - 3 days for a restore to happen.
