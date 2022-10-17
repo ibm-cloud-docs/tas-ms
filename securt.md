@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-30-29"
+lastupdated: "2022-10-17"
 
 subcollection: tas-ms
 
@@ -68,6 +68,7 @@ A summary of the Security policies and processes for TRIRIGA Application Suite M
 * The IBM Cloud network ports are protected with firewalls, which serve as intrusion detection (IDS) and intrusion prevention (IPS) agents. Details regarding on IBM Cloud intrusion detection management is IBM Confidential information and covered under IBM Cloud SOC2 compliance (see compliance section below).
 
 * All IBM  TRIRIGA SaaS and TRIRIGA Application Suite Managed Service environments are configured for Anti-Malware (Anti-Virus) protection and Endpoint Detection and Response (EDR) technology with associated telemetry.
+
 Status and alerts are monitored continuously.
 
 IBM Trust Center - Enterprise IT Security and Trust:
@@ -87,6 +88,7 @@ https://www.ibm.com/trust/security
 * IBM obtains and implements externally facing SSL certificates from a trusted Certificate Authority (CA)
 
 * All databases use native AES-256 encryption (data is encrypted at rest)
+
 Customers will not have direct access to the operating system, file system or web application server.  Changes need to be requested through a Support ticket.
 
 * Customers will not have DBAdmin or update access to any database.    Updates need to be requested through a support ticket.
@@ -101,6 +103,7 @@ Customers will not have direct access to the operating system, file system or we
 * Vulnerabilities are assigned individual vulnerability ratings and exploitation categories (Critical, High, Medium or Low). These ratings are used to determine an IBM mandated time requirement to remediate and resolve the vulnerability.
 
 * Vulnerability scanning results and logs are considered IBM Confidential Information and are not disclosed to customers or prospects.
+
 SQL Injection - please see FAQ link below regarding how TRIRIGA protects against SQL injection:
 https://www.ibm.com/support/pages/node/268401
 
@@ -129,19 +132,19 @@ The IBM TRIRIGA Application Suite Managed Service team provides the following se
 
 * IBM Cloud (IaaS) ISO certificates:
 
-[ISO-27001:2013](https://www.ibm.com/downloads/cas/KDMPXMKA)
+    [ISO-27001:2013](https://www.ibm.com/downloads/cas/KDMPXMKA)
 
-[ISO-27017:2015](https://www.ibm.com/downloads/cas/GLL9ZBZX)
+    [ISO-27017:2015](https://www.ibm.com/downloads/cas/GLL9ZBZX)
 
-[ISO-27018:2019](https://www.ibm.com/downloads/cas/DNM7GMKY)
+    [ISO-27018:2019](https://www.ibm.com/downloads/cas/DNM7GMKY)
 
 * IBM Enterprise & Technology Security ISO certificates:
 
-[ISO 27017: 2015](https://www.ibm.com/downloads/cas/QV8Q6ZVY)
+    [ISO 27017: 2015](https://www.ibm.com/downloads/cas/QV8Q6ZVY)
 
-[ISO 27018: 2019](https://www.ibm.com/downloads/cas/BKGPEYLQ)
+    [ISO 27018: 2019](https://www.ibm.com/downloads/cas/BKGPEYLQ)
 
-[ISO 27701: 2019](https://www.ibm.com/downloads/cas/X42E0VBD)
+    [ISO 27701: 2019](https://www.ibm.com/downloads/cas/X42E0VBD)
 
 * There are 3 different SOC reports prepared by external auditors that attest that IBM Cloud has the appropriate security and compliance, financial, and operational controls and procedures in place:
 
@@ -218,7 +221,7 @@ If a government wants access to data held by IBM on behalf of a SaaS client, IBM
 
 https://www.ibm.com/support/customer/zz/en/dpa.html
 
-##Data Privacy and Subject Rights
+## Data Privacy and Subject Rights
 {: #data-subject-rights}
 
 * IBM Privacy Statement
@@ -278,7 +281,8 @@ The PE&O Policy itself is IBM Confidential information. Further details on this 
 {: #terms-use}
 
 * General Terms of Use for IBM Cloud Offerings:
-https://www.ibm.com/software/sla/sladb.nsf/sla/tou-gen-terms
+
+    https://www.ibm.com/software/sla/sladb.nsf/sla/tou-gen-terms
 
 ## Cloud Service Agreement
 {: #cloud-service-agreement}
