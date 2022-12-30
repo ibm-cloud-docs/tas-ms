@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-12-22"
 
 subcollection: tas-ms
 
@@ -21,7 +21,9 @@ Important:
 
 Customers must purchase (or own) App Points for TAS prior to (or in conjunction with) ordering the IBM Managed Service. The managed service provides IBM Cloud based hosting, product installation, operation, maintenance and support for TAS.
  
-The provisioning process is invoked when a client has placed an order using TAS-MS part numbers. There are three (3) part numbers:
+The provisioning process is invoked when a client has placed an order using TAS-MS part numbers. 
+
+There are three (3) part numbers:
 
 D05UTZX- Capacity
 
