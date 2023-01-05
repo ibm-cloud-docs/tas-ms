@@ -22,8 +22,8 @@ toc:
       - start.md
       - scopeos.md
       - link:
-        label: "Roles and Responsibility Matrix (RACI)"
-        href: https://www.ibm.com/support/pages/node/6509506
+         label: "Roles and Responsibility Matrix (RACI)"
+         href: https://www.ibm.com/support/pages/node/6509506
       - mntwnd.md
       - securt.md
       - provision.md
