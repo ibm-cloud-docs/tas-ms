@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-12-22"
+  years: 2023
+lastupdated: "2023-16-23"
 
 subcollection: tas-ms
 
@@ -47,6 +47,13 @@ The provisioning process has several steps, most of them automated, but some tha
 
 In general, allow for at least 10 business days for provisioning to be completed.
  
+## Deployment on Shared Cluster
+{:deployment-shared-cluster}
+
+TAS MS is deployed in a Shared Cluster and is subject to the TAS MS offering software upgrade policy that is set by IBM. IBM will determine and communicate when upgrades will occur, and no deferrals or exceptions will be allowed
+In the Shared Cluster deployment, IBM Red Hat OpenShift on IBM Cloud and IBM Cloud Pak for Data will be shared across multiple Production Instance(s) and Non-Production Instance(s) and Clients. 
+
+
 The provisioning itself can be broken down into a number of steps:
  
 1. Order validation
