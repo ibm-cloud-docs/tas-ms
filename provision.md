@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-16-23"
+lastupdated: "2023-04-19"
 
 subcollection: tas-ms
 
@@ -31,7 +31,6 @@ D05USZX  - Data
 
 D05URZX - VPC (Virtual Processor Core)
 
-For details, per see [Part Numbers and Order consideration](https://www.ibm.com/support/pages/node/6474237).
  
 Each client is provisioned in an environment that is separate and distinct from other clients.  The provisioning is done to meet the specific customer requirements for a specific order.  This means there is no pre-provisioning done and client environment provisioning begins when an order is placed. 
  
