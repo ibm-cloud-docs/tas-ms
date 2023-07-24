@@ -50,7 +50,7 @@ After the above configuration steps have been completed, user authentication flo
 4.	SAML TAI consumes response and logs in the user. An LTPA2 Token is created
 5.	Assertion consumer service redirects user to correct landing page within TRIRIGA 
 
-# Multi-factor authentication (MFA) or Two-factor authententication (2FA) Support
+## Multi-factor authentication (MFA) or Two-factor authententication (2FA) Support
 {: #mfa2fa}
 
 The TAS-MS offering support multiple forms of SSO, including SAML, which relies on the customers chosen on-premise or cloud based identity provider to authenticate the user. In this flow, the identity provider is responsible for implementing any and all authentication factors required by the customers security policy. The TAS-MS environment does not itself implement MFA/2FA.
