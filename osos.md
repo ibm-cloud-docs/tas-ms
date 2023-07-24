@@ -55,3 +55,32 @@ After the above configuration steps have been completed, user authentication flo
 
 The TAS-MS offering support multiple forms of SSO, including SAML, which relies on the customers chosen on-premise or cloud based identity provider to authenticate the user. In this flow, the identity provider is responsible for implementing any and all authentication factors required by the customers security policy. The TAS-MS environment does not itself implement MFA/2FA.
 
+
+See below IBM Knowledge Center links for further requirements and limitations of single sign-on requests for TRIRIGA Application Platform:
+
+https://www.ibm.com/support/knowledgecenter/SSHEB3_3.6.0/com.ibm.tap.doc/sso_topics/c_sso_reqs.html
+
+If you would like to configure any of the above, please submit a case (https://www.ibm.com/mysupport) to the IBM Support Community with your specific environment details to IBM for review.
+
+## Single Sign On (SSO) and OpenID Authentication
+{: #singlesignonoid}
+
+### OpenID
+{: #singlesignonoidd}
+
+TAS-MS supports OpenID for authentication. This is done by leveraging OpenID Connect (OIDC) capabilities within IBM WebSphere. In this scenario, IBM is the relying party (RP) and the customer is the OpenID Provider (OP).
+
+ For further information, see the following links:
+
+WebSphere specific information:
+
+https://www.ibm.com/support/knowledgecenter/SSAW57_9.0.5/com.ibm.websphere.nd.multiplatform.doc/ae/csec_oiddesc.html 
+
+TRIRIGA specific information:
+https://www.ibm.com/support/knowledgecenter/SSHEB3_3.7/com.ibm.tap.doc/sso_topics/m_sso_config_websphere_trad_azu_oidc.html
+
+## OAuth
+{: #singlesignonoiddoa}
+
+OpenID Connect (OIDC) is a layer that sits on top of OAuth 2.0 that adds authentication, i.e. login. OAuth 2.0 is designed only for authorization, i.e. for granting access to data and features. The IBM SRE Team only support using these capabilities for authentication at this time, all authorization is still performed within the product via membership to security groups.
+
